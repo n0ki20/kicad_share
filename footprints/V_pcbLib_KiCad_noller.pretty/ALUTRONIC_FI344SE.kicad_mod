@@ -1,0 +1,195 @@
+(footprint "ALUTRONIC_FI344SE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Heat Sink (Aufsteckkühlkörper), TO-220, 27K/W (Reichelt: V 5801B)")
+	(tags "TO-220-3 Vertical")
+	(property "Reference" "REF**"
+		(at -11.484 6.35 90)
+		(layer "F.SilkS")
+		(uuid "6bd27186-b010-4029-b24e-312d37f4dced")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "ALUTRONIC_FI344SE"
+		(at -0.054 2.754 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16ac26a3-a630-4166-ae92-c0a5a344b818")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42f20a33-0ed8-4c64-8804-9a240812faea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67d1a141-a99b-41f0-9d55-7297fec35aa1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d761cb3-1954-46d6-93e8-c686f30942cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.5 -3.556)
+		(end 12.392 6.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8555af16-0a6e-4afc-a6fc-25bb6a7cb9be")
+	)
+	(fp_rect
+		(start -12.554 -3.65)
+		(end 12.446 6.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "908b1495-52ae-486e-bac7-7f0659c7205d")
+	)
+	(fp_line
+		(start -5.054 -2.896)
+		(end -5.054 1.504)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d3895ff7-d5db-4181-bee7-672a65d3791a")
+	)
+	(fp_line
+		(start -5.054 -1.626)
+		(end 4.946 -1.626)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "80b3f338-28c6-4622-a19c-703e51189f3b")
+	)
+	(fp_line
+		(start -5.054 1.504)
+		(end 4.946 1.504)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ba3f735-d9da-47bf-beb6-e5c69fae2a11")
+	)
+	(fp_line
+		(start -1.904 -2.896)
+		(end -1.904 -1.626)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abbd6c58-0999-4df1-982d-ebcb7149eb26")
+	)
+	(fp_line
+		(start 1.796 -2.896)
+		(end 1.796 -1.626)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72e88e95-95fe-4ba6-ae5a-65edfb0394ad")
+	)
+	(fp_line
+		(start 4.946 -2.896)
+		(end -5.054 -2.896)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a53fa44-aa78-426a-a64c-c9ae13187fab")
+	)
+	(fp_line
+		(start 4.946 1.504)
+		(end 4.946 -2.896)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2dbcbc02-876a-4d23-92b5-cbd18f762c01")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.054 4.826 0)
+		(layer "F.Fab")
+		(uuid "4beaf1d8-ba51-43ae-abad-4dd39e51926a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "%userprofile%/OneDrive/Projekte/3   KiCAD/librarys/3D-parts/ALUTRONIC_FI344SE/Aufsteckkühlkörper, TO-220, 27KW v3.step"
+		(offset
+			(xyz -10.9 -6 -9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
