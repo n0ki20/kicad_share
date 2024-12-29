@@ -2312,7 +2312,7 @@
 			)
 		)
 		(property "Description" "Buck converter, +3.3V, 0.5A, SOT223-3"
-			(at 0 0 0)
+			(at -1.27 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 		(symbol "HOTT_TS 78L05 ACY_0_1"
 			(rectangle
 				(start -7.62 3.81)
-				(end 7.62 -2.54)
+				(end 7.62 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -2371,7 +2371,7 @@
 		)
 		(symbol "HOTT_TS 78L05 ACY_1_1"
 			(pin power_out line
-				(at 10.16 0 180)
+				(at 10.16 1.27 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -2389,7 +2389,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -5.08 90)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2407,7 +2407,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 0 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -2553,6 +2553,22 @@
 					(type background)
 				)
 			)
+			(text "+"
+				(at -3.81 2.54 0)
+				(effects
+					(font
+						(size 2.032 2.032)
+					)
+				)
+			)
+			(text "-"
+				(at -3.81 -2.54 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
 			(pin power_out line
 				(at 7.62 0 180)
 				(length 2.54)
@@ -2574,10 +2590,10 @@
 			(pin bidirectional line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "-"
+				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 2.54 2.54)
 						)
 					)
 				)
@@ -2592,10 +2608,10 @@
 			(pin bidirectional line
 				(at -7.62 2.54 0)
 				(length 2.54)
-				(name "+"
+				(name ""
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 2.54 2.54)
 						)
 					)
 				)
