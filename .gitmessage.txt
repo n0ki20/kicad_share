@@ -1,3 +1,4 @@
-New components (Manufacturer ; ManufacturerID ; Project):
+New components (Designation; Manufacturer ; ManufacturerID ; Project):
 
 -
+
