@@ -932,7 +932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "C_pcbLib_KiCad_noller:C_RadialSMD_4_5.8"
 			(at 2.54 12.7 0)
 			(effects
 				(font

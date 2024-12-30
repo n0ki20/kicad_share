@@ -2769,7 +2769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "U_pcbLib_KiCad_noller:SSOP-8_2.95x2.8mm_P0.65mm"
 			(at 1.27 12.7 0)
 			(effects
 				(font
@@ -2787,7 +2787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Boost converter, +5V/+3V3/Adj, 1A, µMAX8"
+		(property "Description" "Boost converter, +5V/+3V3/Adj, 1A, µMAX8/SSOP-8"
 			(at 1.27 8.89 0)
 			(effects
 				(font

@@ -2847,7 +2847,7 @@
 		)
 		(symbol "MAX_ MAX1797EUA+_1_1"
 			(pin input line
-				(at -10.16 -12.7 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "LBI"
 					(effects
@@ -2883,7 +2883,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -10.16 0)
+				(at -10.16 -12.7 0)
 				(length 2.54)
 				(name "LBO"
 					(effects
@@ -2901,7 +2901,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 -10.16 0)
 				(length 2.54)
 				(name "SHDN"
 					(effects
