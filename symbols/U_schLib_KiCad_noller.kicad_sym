@@ -6195,7 +6195,7 @@
 			)
 		)
 		(symbol "TI_TXS0104ED_1_1"
-			(pin input line
+			(pin power_in line
 				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "VCCA"
@@ -6285,7 +6285,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -8.89 -5.08 0)
 				(length 2.54)
 				(name "VCCB"
@@ -6393,7 +6393,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -8.89 -24.13 0)
 				(length 2.54)
 				(name "GND"

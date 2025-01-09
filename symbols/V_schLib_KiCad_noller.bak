@@ -441,11 +441,11 @@
 		)
 		(property "Value" "ALUTRONIC_FI344SE"
 			(at 0.254 -2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V_pcbLib_KiCad_noller:ALUTRONIC_FI344SE"
@@ -3642,6 +3642,7 @@
 		)
 		(property "Value" "FISCH_FK 242 SA 220 O"
 			(at 0.254 -2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3750,12 +3751,12 @@
 			)
 		)
 		(property "Value" "FISCH_FK 244 13 D PAK"
-			(at 0.635 19.685 0)
+			(at 0 -2.032 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "V_pcbLib_KiCad_noller:FISCH_FK 244 13 D PAK"
@@ -3831,14 +3832,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(text "FISCH_FK 244 13 D PAK"
-				(at 0 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(text "Heat Sink"
