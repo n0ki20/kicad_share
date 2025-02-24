@@ -5289,7 +5289,6 @@
 		)
 	)
 	(symbol "JOY_NodeMCU_ESP32"
-		(pin_numbers hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5330,7 +5329,7 @@
 			)
 		)
 		(property "Description" "ESP32 Development Board"
-			(at 0 0 0)
+			(at 0.762 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5377,7 +5376,7 @@
 		(symbol "JOY_NodeMCU_ESP32_0_1"
 			(polyline
 				(pts
-					(xy 10.16 -25.4) (xy 8.89 -25.4) (xy 8.89 -2.54) (xy 10.16 -2.54)
+					(xy 3.81 -83.82) (xy 3.81 -68.58)
 				)
 				(stroke
 					(width 0)
@@ -5389,7 +5388,115 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -1.27) (xy 8.89 -1.27) (xy 8.89 13.97) (xy 11.43 13.97)
+					(xy 3.81 -68.58) (xy 1.27 -68.58)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -68.58) (xy 3.81 -53.34)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -63.5) (xy 2.54 -63.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -53.34) (xy 1.27 -53.34)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -76.2) (xy 10.16 -83.82)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -83.82) (xy 10.16 -83.82)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -76.2) (xy 10.16 -76.2)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -1.27) (xy 8.89 -1.27) (xy 8.89 13.97) (xy 12.7 13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -25.4) (xy 8.89 -25.4) (xy 8.89 -2.54) (xy 12.7 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -22.86) (xy 11.43 -22.86) (xy 11.43 -17.78) (xy 12.7 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -5413,8 +5520,25 @@
 			)
 		)
 		(symbol "JOY_NodeMCU_ESP32_1_0"
+			(text "(no ADC operation during WIFI connection)"
+				(at 8.128 -25.4 900)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(justify left)
+				)
+			)
 			(text "ADC1"
-				(at 7.62 -1.27 900)
+				(at 5.334 -61.214 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "ADC2"
+				(at 6.604 -25.4 900)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5423,7 +5547,42 @@
 				)
 			)
 			(text "ADC2"
-				(at 7.62 -25.4 900)
+				(at 7.112 -80.01 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "D36/VP"
+				(at -9.144 -54.864 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "D39/VN"
+				(at -9.144 -57.15 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "DAC"
+				(at 10.414 -22.86 900)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(text "EN"
+				(at -9.144 -52.324 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5432,18 +5591,17 @@
 				)
 			)
 			(text "Input only"
-				(at 10.16 -1.27 900)
+				(at 2.794 -58.42 900)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 		)
 		(symbol "JOY_NodeMCU_ESP32_1_1"
 			(rectangle
-				(start -3.81 15.24)
+				(start -8.89 15.24)
 				(end 20.32 -43.18)
 				(stroke
 					(width 0)
@@ -5451,6 +5609,18 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -83.82) (xy 1.27 -83.82)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(text "ESP32 DEVBOARD"
@@ -5462,7 +5632,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 6.35 0)
+				(at -34.29 -52.07 0)
 				(length 2.54)
 				(name "EN"
 					(effects
@@ -5480,7 +5650,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -24.13 180)
+				(at -34.29 -74.93 0)
 				(length 2.54)
 				(name "D27"
 					(effects
@@ -5498,7 +5668,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -13.97 180)
+				(at -34.29 -77.47 0)
 				(length 2.54)
 				(name "CLK/D14"
 					(effects
@@ -5516,7 +5686,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -8.89 180)
+				(at -34.29 -80.01 0)
 				(length 2.54)
 				(name "MISO/D12"
 					(effects
@@ -5534,7 +5704,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -11.43 180)
+				(at -34.29 -82.55 0)
 				(length 2.54)
 				(name "MOSI/D13"
 					(effects
@@ -5551,8 +5721,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -6.35 -38.1 0)
+			(pin power_in line
+				(at -34.29 -85.09 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5570,7 +5740,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 12.7 0)
+				(at -34.29 -87.63 0)
 				(length 2.54)
 				(name "Vin"
 					(effects
@@ -5588,7 +5758,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 10.16 0)
+				(at 20.32 -87.63 180)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -5605,8 +5775,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at -6.35 -40.64 0)
+			(pin power_in line
+				(at 20.32 -85.09 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5624,7 +5794,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -16.51 180)
+				(at 20.32 -82.55 180)
 				(length 2.54)
 				(name "SS/D15"
 					(effects
@@ -5642,7 +5812,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -3.81 180)
+				(at 20.32 -80.01 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -5660,7 +5830,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 2.54 180)
+				(at -34.29 -54.61 0)
 				(length 2.54)
 				(name "VP/D36"
 					(effects
@@ -5678,7 +5848,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -6.35 180)
+				(at 20.32 -77.47 180)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -5696,7 +5866,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -5.08 0)
+				(at 20.32 -74.93 180)
 				(length 2.54)
 				(name "RX2/D16"
 					(effects
@@ -5714,7 +5884,7 @@
 				)
 			)
 			(pin output line
-				(at -6.35 -2.54 0)
+				(at 20.32 -72.39 180)
 				(length 2.54)
 				(name "TX2/D17"
 					(effects
@@ -5732,7 +5902,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -27.94 180)
+				(at 20.32 -69.85 180)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -5750,7 +5920,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -30.48 180)
+				(at 20.32 -67.31 180)
 				(length 2.54)
 				(name "D18"
 					(effects
@@ -5768,7 +5938,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -33.02 180)
+				(at 20.32 -64.77 180)
 				(length 2.54)
 				(name "D19"
 					(effects
@@ -5786,7 +5956,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -35.56 180)
+				(at 20.32 -62.23 180)
 				(length 2.54)
 				(name "SDA/D21"
 					(effects
@@ -5804,7 +5974,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 0 0)
+				(at 20.32 -59.69 180)
 				(length 2.54)
 				(name "RX0/D3"
 					(effects
@@ -5822,7 +5992,7 @@
 				)
 			)
 			(pin output line
-				(at -6.35 2.54 0)
+				(at 20.32 -57.15 180)
 				(length 2.54)
 				(name "TX0/D1"
 					(effects
@@ -5840,7 +6010,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -38.1 180)
+				(at 20.32 -54.61 180)
 				(length 2.54)
 				(name "SCL/D22"
 					(effects
@@ -5858,7 +6028,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
+				(at -34.29 -57.15 0)
 				(length 2.54)
 				(name "VN/D39"
 					(effects
@@ -5876,7 +6046,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -40.64 180)
+				(at 20.32 -52.07 180)
 				(length 2.54)
 				(name "D23"
 					(effects
@@ -5894,7 +6064,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 7.62 180)
+				(at -34.29 -59.69 0)
 				(length 2.54)
 				(name "D34"
 					(effects
@@ -5912,7 +6082,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 5.08 180)
+				(at -34.29 -62.23 0)
 				(length 2.54)
 				(name "D35"
 					(effects
@@ -5930,7 +6100,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 12.7 180)
+				(at -34.29 -64.77 0)
 				(length 2.54)
 				(name "D32"
 					(effects
@@ -5948,7 +6118,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 10.16 180)
+				(at -34.29 -67.31 0)
 				(length 2.54)
 				(name "D33"
 					(effects
@@ -5966,9 +6136,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -19.05 180)
+				(at -34.29 -69.85 0)
 				(length 2.54)
-				(name "D25"
+				(name "D25/ADC18/DAC1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5984,9 +6154,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -21.59 180)
+				(at -34.29 -72.39 0)
 				(length 2.54)
-				(name "D26"
+				(name "D26/ADC19/DAC2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7062,7 +7232,7 @@
 			)
 		)
 		(symbol "MountingHole_4.3_7.5_plated_reinforced_1_1"
-			(pin output line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"

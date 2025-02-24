@@ -4105,6 +4105,22 @@
 					(type background)
 				)
 			)
+			(text "G"
+				(at 4.318 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "R"
+				(at 4.318 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
 				(at -1.27 -1.27 0)
 				(length 3.048)
