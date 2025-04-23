@@ -4929,7 +4929,7 @@
 			(pin passive line
 				(at 27.94 -19.05 180)
 				(length 5.08)
-				(name "~D9"
+				(name "~IO9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4947,7 +4947,7 @@
 			(pin passive line
 				(at 27.94 -21.59 180)
 				(length 5.08)
-				(name "~D10"
+				(name "~IO10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5019,7 +5019,7 @@
 			(pin passive line
 				(at 27.94 -31.75 180)
 				(length 5.08)
-				(name "D15/H_CS"
+				(name "IO15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5037,7 +5037,7 @@
 			(pin passive line
 				(at 27.94 -8.89 180)
 				(length 5.08)
-				(name "~D2"
+				(name "~IO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5055,7 +5055,7 @@
 			(pin passive line
 				(at 27.94 -3.81 180)
 				(length 5.08)
-				(name "~D0"
+				(name "~IO0/FLASH"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5073,7 +5073,7 @@
 			(pin passive line
 				(at 27.94 -13.97 180)
 				(length 5.08)
-				(name "~D4"
+				(name "~IO4/SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5109,7 +5109,7 @@
 			(pin passive line
 				(at 27.94 -16.51 180)
 				(length 5.08)
-				(name "~D5"
+				(name "~IO5/SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5127,7 +5127,7 @@
 			(pin passive line
 				(at 27.94 -11.43 180)
 				(length 5.08)
-				(name "~D3/RXD_0"
+				(name "~IO3/RXD_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5145,7 +5145,7 @@
 			(pin passive line
 				(at 27.94 -6.35 180)
 				(length 5.08)
-				(name "~D1/TXD_0"
+				(name "~IO1/TXD_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5181,7 +5181,7 @@
 			(pin passive line
 				(at 27.94 -34.29 180)
 				(length 5.08)
-				(name "~D16/WakeUp"
+				(name "~IO16/WakeUp"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5199,7 +5199,7 @@
 			(pin passive line
 				(at 27.94 -29.21 180)
 				(length 5.08)
-				(name "~D14/H_CLK"
+				(name "~IO14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5217,7 +5217,7 @@
 			(pin passive line
 				(at 27.94 -24.13 180)
 				(length 5.08)
-				(name "~D12/H_MISO"
+				(name "~IO12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5235,7 +5235,7 @@
 			(pin passive line
 				(at 27.94 -26.67 180)
 				(length 5.08)
-				(name "~D13/H_MOSI"
+				(name "~IO13"
 					(effects
 						(font
 							(size 1.27 1.27)

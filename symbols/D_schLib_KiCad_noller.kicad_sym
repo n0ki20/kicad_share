@@ -1970,7 +1970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1 " "JLCPCB"
+		(property "Supplier 1" "JLCPCB"
 			(at 0 0 0)
 			(effects
 				(font

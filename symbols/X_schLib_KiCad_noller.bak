@@ -8830,7 +8830,7 @@
 			)
 		)
 	)
-	(symbol "PinSocket_1x15_2.54_90_THT_1"
+	(symbol "PinSocket_1x15_2.54_90_THT"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
@@ -8897,7 +8897,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PinSocket_1x15_2.54_90_THT_1_1_1"
+		(symbol "PinSocket_1x15_2.54_90_THT_1_1"
 			(rectangle
 				(start -1.27 -20.193)
 				(end 0 -20.447)
