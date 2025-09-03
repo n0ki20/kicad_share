@@ -1,9 +1,11 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "100n_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -85,10 +87,10 @@
 		(symbol "100n_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -97,10 +99,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -144,9 +146,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100u_1206"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -228,10 +233,10 @@
 		(symbol "100u_1206_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -240,10 +245,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -287,11 +292,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100u_5_2.5_THT"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -369,17 +379,6 @@
 		)
 		(symbol "100u_5_2.5_THT_0_1"
 			(rectangle
-				(start -1.524 -0.3048)
-				(end 1.524 -0.6858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
 				(stroke
@@ -388,6 +387,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -453,11 +463,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100u_8_2.5_THT"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -535,17 +550,6 @@
 		)
 		(symbol "100u_8_2.5_THT_0_1"
 			(rectangle
-				(start -1.524 -0.3048)
-				(end 1.524 -0.6858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
 				(stroke
@@ -554,6 +558,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -619,9 +634,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10n_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -703,10 +721,10 @@
 		(symbol "10n_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -715,10 +733,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -762,9 +780,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10u_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -846,10 +867,10 @@
 		(symbol "10u_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -858,10 +879,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -905,9 +926,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10u_16V_Tantal_Kemet-A"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1024,17 +1048,6 @@
 		)
 		(symbol "10u_16V_Tantal_Kemet-A_0_1"
 			(rectangle
-				(start -1.524 -0.3048)
-				(end 1.524 -0.6858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
 				(stroke
@@ -1043,6 +1056,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -1108,11 +1132,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10u_4.0_SMD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1226,17 +1255,6 @@
 		)
 		(symbol "10u_4.0_SMD_0_1"
 			(rectangle
-				(start -1.524 -0.3048)
-				(end 1.524 -0.6858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
 				(stroke
@@ -1245,6 +1263,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -1310,9 +1339,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1n_0805_5%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1394,10 +1426,10 @@
 		(symbol "1n_0805_5%_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1406,10 +1438,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -1453,9 +1485,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1u_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1537,10 +1572,10 @@
 		(symbol "1u_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1549,10 +1584,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -1596,9 +1631,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22p_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1680,10 +1718,10 @@
 		(symbol "22p_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1692,10 +1730,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -1739,9 +1777,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22u_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -1749,7 +1790,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 1.905 1.27 0)
+			(at 1.778 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1827,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, 22uF"
-			(at 0 0 0)
+			(at -0.508 -0.127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1836,7 @@
 			)
 		)
 		(property "Value_" "22u"
-			(at 3.81 -0.635 0)
+			(at 3.302 -0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,10 +1864,10 @@
 		(symbol "22u_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -1835,10 +1876,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -1882,11 +1923,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "22u_6.3_SMD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2000,17 +2046,6 @@
 		)
 		(symbol "22u_6.3_SMD_0_1"
 			(rectangle
-				(start -1.524 -0.3048)
-				(end 1.524 -0.6858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
 				(stroke
@@ -2019,6 +2054,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -2084,9 +2130,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "330n_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2168,10 +2217,10 @@
 		(symbol "330n_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2180,10 +2229,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2227,9 +2276,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "33p_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2311,10 +2363,10 @@
 		(symbol "33p_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2323,10 +2375,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2370,9 +2422,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "47n_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2454,10 +2509,10 @@
 		(symbol "47n_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2466,10 +2521,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2513,9 +2568,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "47u_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2597,10 +2655,10 @@
 		(symbol "47u_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2609,10 +2667,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2656,9 +2714,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "4u7_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2740,10 +2801,10 @@
 		(symbol "4u7_0805_1_1"
 			(polyline
 				(pts
-					(xy -1.524 -0.508) (xy 1.524 -0.508)
+					(xy -1.524 0.508) (xy 1.524 0.508)
 				)
 				(stroke
-					(width 0.3302)
+					(width 0.3048)
 					(type default)
 				)
 				(fill
@@ -2752,10 +2813,10 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 0.508) (xy 1.524 0.508)
+					(xy -1.524 -0.508) (xy 1.524 -0.508)
 				)
 				(stroke
-					(width 0.3048)
+					(width 0.3302)
 					(type default)
 				)
 				(fill
@@ -2799,9 +2860,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PANA_EEEHA1V100WR"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0.254)
 		)
@@ -2918,17 +2982,6 @@
 		)
 		(symbol "PANA_EEEHA1V100WR_0_1"
 			(rectangle
-				(start -1.524 -0.3048)
-				(end 1.524 -0.6858)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
 				(start -1.524 0.6858)
 				(end 1.524 0.3048)
 				(stroke
@@ -2937,6 +2990,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 -0.3048)
+				(end 1.524 -0.6858)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -3002,5 +3066,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
