@@ -1786,7 +1786,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "IDC-Header_2x05_2.54_90_SMD_1"
+	(symbol "IDC-Header_2x08_2.54_90_SMD"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1846,7 +1846,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "IDC-Header_2x05_2.54_90_SMD_1_1_1"
+		(symbol "IDC-Header_2x08_2.54_90_SMD_1_1"
 			(rectangle
 				(start -1.27 6.35)
 				(end 2.54 -13.97)
