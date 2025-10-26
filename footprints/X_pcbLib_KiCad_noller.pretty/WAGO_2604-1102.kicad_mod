@@ -1,7 +1,7 @@
 (footprint "WAGO_2604-1102"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Clamp Terminal, 1x02 (Reichelt: WAGO 2604-1102)")
 	(tags "2604-1102 ")
@@ -25,18 +25,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "2e2ddbf2-93db-4c9b-bdf0-216cb7382eb3")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -66,17 +54,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center -3.048 -4.064)
-		(end -2.667 -4.064)
-		(stroke
-			(width 0.508)
-			(type solid)
-		)
-		(fill none)
-		(layer "B.SilkS")
-		(uuid "8d4ca501-d26e-41f4-9a9f-67809be519ed")
-	)
 	(fp_line
 		(start -3.726599 -3.027)
 		(end -3.726599 13.462)
@@ -124,9 +101,20 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2747cfb9-022e-4c48-873b-5a2bda0da492")
+	)
+	(fp_circle
+		(center -3.048 -4.064)
+		(end -2.667 -4.064)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.SilkS")
+		(uuid "8d4ca501-d26e-41f4-9a9f-67809be519ed")
 	)
 	(fp_line
 		(start -3.853599 -3.154)
@@ -215,7 +203,7 @@
 			(width 0.508)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "4cba55ec-dbdb-418d-9222-4d09f07b4dea")
 	)
@@ -263,7 +251,8 @@
 		(remove_unused_layers no)
 		(uuid "3976c6b9-c448-424a-9605-541b3d27ea51")
 	)
-	(model "C:/Users/Kilian/Documents/kicad_share/3dmodels/WAGO_2604-1102/2604-1102.stp"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/WAGO_2604-1102/2604-1102.stp"
 		(offset
 			(xyz 7.2 -8.2 0)
 		)

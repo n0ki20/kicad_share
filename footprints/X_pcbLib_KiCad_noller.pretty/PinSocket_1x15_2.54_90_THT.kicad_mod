@@ -1,7 +1,7 @@
 (footprint "PinSocket_1x15_2.54_90_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "Through hole socket strip THT 1x15 2.54mm single row")
 	(property "Reference" "REF**"
@@ -15,26 +15,13 @@
 			)
 		)
 	)
-	(property "Value" "PinSocket_1x15_P2.54mm_Vertical"
+	(property "Value" "PinSocket_1x15_2.54_90_THT"
 		(at 0 38.33 0)
 		(layer "F.Fab")
 		(uuid "9c24c133-d97d-4c05-9206-db6093f90e55")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "63f68ac1-c231-45d8-a5e5-b4f0e3006c8f")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -347,7 +334,8 @@
 		(remove_unused_layers no)
 		(uuid "fcaac8d5-432d-4ffc-b986-ddab8f53fb84")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x15_P2.54mm_Vertical.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/X/PinSocket_1x15_2.54_90_THT.step"
 		(offset
 			(xyz 0 0 0)
 		)
