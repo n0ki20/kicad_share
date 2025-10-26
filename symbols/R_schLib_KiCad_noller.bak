@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "0R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -133,11 +137,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -265,11 +274,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100R_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -397,11 +411,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -529,11 +548,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "100k_0805_0.1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -661,11 +685,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10M_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -793,11 +822,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10k_0207"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -925,11 +959,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10k_0603"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1057,11 +1096,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1189,11 +1233,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10k_0805_0.1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1321,11 +1370,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1453,11 +1507,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "10m_2512_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1621,11 +1680,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "120R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1753,11 +1817,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "13k3_wired_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1885,11 +1954,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "150R_0603"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2017,11 +2091,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "150R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2149,11 +2228,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "15k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2281,11 +2365,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "18k_0805_0.1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2413,11 +2502,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "19k1_0603_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2545,11 +2639,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1M_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2677,11 +2776,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1R_0207_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2809,11 +2913,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1k3_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2941,11 +3050,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1k8_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3073,11 +3187,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1k8_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3205,11 +3324,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3337,11 +3461,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "1k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3469,11 +3598,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "200k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3601,11 +3735,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "200k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3733,11 +3872,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "220R_0207"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3865,11 +4009,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "220R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3997,11 +4146,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "24k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4129,11 +4283,153 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "2k2_0805"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k2_0805"
+			(at -5.08 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R_pcbLib_KiCad_noller:R_0805"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 2.2 kOhm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_" "2k2"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "R resistor 2k2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "2k2_0805_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "2k2_0805_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "2k7_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4261,11 +4557,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "2k_0805_0.1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4393,11 +4694,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "2k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4525,11 +4831,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "300k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4657,11 +4968,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "330R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4789,11 +5105,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "33k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4921,11 +5242,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "33k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5053,11 +5379,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "36k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5185,11 +5516,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3k6_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5317,11 +5653,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "3k6_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5449,11 +5790,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "470R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5581,11 +5927,153 @@
 				)
 			)
 		)
+		(embedded_fonts no)
+	)
+	(symbol "470_0805_1%"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0.254)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470_0805_1%"
+			(at -5.08 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "R_pcbLib_KiCad_noller:R_0805"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, 470Ohm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value_" "470R_{1%}"
+			(at 1.27 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "ki_keywords" "R resistor 470"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "470_0805_1%_0_1"
+			(rectangle
+				(start -0.762 1.778)
+				(end 0.762 -1.778)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "470_0805_1%_1_1"
+			(pin passive line
+				(at 0 2.54 270)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 0.762)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(symbol "470k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5713,11 +6201,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "4k3_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5845,11 +6338,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "4k7_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5977,11 +6475,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "4k7_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6109,11 +6612,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "50R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6241,11 +6749,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "51k_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6373,11 +6886,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "600R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6505,11 +7023,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "62k_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6637,11 +7160,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "680R_0805"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6769,11 +7297,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "750R_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6901,11 +7434,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "7k5_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7033,11 +7571,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "82R_0805_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7165,11 +7708,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "93k1_wired_1%"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0.254) hide)
+			(offset 0.254)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7297,10 +7845,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BOURNS_3296W-1-203LF"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7402,6 +7953,17 @@
 			)
 		)
 		(symbol "BOURNS_3296W-1-203LF_0_1"
+			(rectangle
+				(start 0.762 1.8034)
+				(end -0.762 -1.8034)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
@@ -7412,17 +7974,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(rectangle
-				(start 0.762 1.8034)
-				(end -0.762 -1.8034)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -7438,24 +7989,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 0 180)
-				(length 0.9906)
-				(name "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -7481,11 +8014,32 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.9906)
+				(name "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BOURNS_3296W-1-502LF"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7587,6 +8141,17 @@
 			)
 		)
 		(symbol "BOURNS_3296W-1-502LF_0_1"
+			(rectangle
+				(start 0.762 1.8034)
+				(end -0.762 -1.8034)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
@@ -7597,17 +8162,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(rectangle
-				(start 0.762 1.8034)
-				(end -0.762 -1.8034)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -7623,24 +8177,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 0 180)
-				(length 0.9906)
-				(name "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -7666,10 +8202,31 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.9906)
+				(name "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "FUZE_FSMD030-2920-R"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7775,10 +8332,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 -1.016) (xy 1.778 -1.016) (xy 3.302 1.016) (xy 3.81 1.016)
-				)
+			(rectangle
+				(start 1.27 -0.508)
+				(end 3.81 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -7787,9 +8343,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 1.27 -0.508)
-				(end 3.81 0.508)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 1.778 -1.016) (xy 3.302 1.016) (xy 3.81 1.016)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -7837,9 +8394,12 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "FUZE_FSMD150-2920-R"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7945,10 +8505,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 -1.016) (xy 1.778 -1.016) (xy 3.302 1.016) (xy 3.81 1.016)
-				)
+			(rectangle
+				(start 1.27 -0.508)
+				(end 3.81 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -7957,9 +8516,10 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 1.27 -0.508)
-				(end 3.81 0.508)
+			(polyline
+				(pts
+					(xy 1.27 -1.016) (xy 1.778 -1.016) (xy 3.302 1.016) (xy 3.81 1.016)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -8007,10 +8567,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PIHER_PTC10LV10-253A2020"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8112,6 +8675,17 @@
 			)
 		)
 		(symbol "PIHER_PTC10LV10-253A2020_0_1"
+			(rectangle
+				(start 0.762 1.8034)
+				(end -0.762 -1.8034)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0.889 0) (xy 0.635 0) (xy 1.651 0.381) (xy 1.651 -0.381) (xy 0.635 0) (xy 0.889 0)
@@ -8122,17 +8696,6 @@
 				)
 				(fill
 					(type outline)
-				)
-			)
-			(rectangle
-				(start 0.762 1.8034)
-				(end -0.762 -1.8034)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -8148,24 +8711,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 0 180)
-				(length 0.9906)
-				(name "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -8191,12 +8736,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 0.9906)
+				(name "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "YAGEO_YC164-JR-071KL"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8365,6 +8933,24 @@
 				)
 			)
 			(pin passive line
+				(at 0 0 270)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 -11.43 90)
 				(length 3.81)
 				(name "1"
@@ -8375,96 +8961,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -11.43 90)
-				(length 3.81)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -11.43 90)
-				(length 3.81)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -11.43 90)
-				(length 3.81)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 0 270)
-				(length 3.81)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 270)
-				(length 3.81)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8491,7 +8987,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 270)
+				(at 2.54 -11.43 90)
 				(length 3.81)
 				(name "1"
 					(effects
@@ -8500,7 +8996,79 @@
 						)
 					)
 				)
-				(number "8"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 270)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -11.43 90)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 270)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -11.43 90)
+				(length 3.81)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8509,5 +9077,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
