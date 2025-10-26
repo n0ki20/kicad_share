@@ -5731,7 +5731,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5749,7 +5749,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5761,6 +5761,224 @@
 				(at 10.16 0 180)
 				(length 2.54)
 				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TI_LM5050MK-1/NOPB"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 -1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TI_LM5050MK-1/NOPB"
+			(at -10.16 -2.794 0)
+			(effects
+				(font
+					(size 0.64 0.64)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "U_pcbLib_KiCad_noller:SOT-23-6"
+			(at -16.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm5050-1.pdf?ts=1757049594876"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET Driver, 5 - 75 V, 400 uA"
+			(at 23.114 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at -5.08 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer ID" "LM5050MK-1/NOPB"
+			(at -7.62 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Reichelt"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier ID" "LM 5050MK-1"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TI_LM5050MK-1/NOPB_0_1"
+			(polyline
+				(pts
+					(xy -10.16 -3.81) (xy 2.54 -3.81) (xy 2.54 -22.86) (xy -10.16 -22.86) (xy -10.16 -3.81)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TI_LM5050MK-1/NOPB_1_0"
+			(pin input line
+				(at -12.7 -6.35 0)
+				(length 2.54)
+				(name "OFF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 -20.32 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -6.35 180)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 -10.16 180)
+				(length 2.54)
+				(name "GATE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -16.51 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -20.32 180)
+				(length 2.54)
+				(name "VS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5891,8 +6109,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
-				(length 5.08)
+				(at 2.54 0 0)
+				(length 2.54)
 				(name "+VS"
 					(effects
 						(font
@@ -5909,8 +6127,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -6.35 0)
-				(length 5.08)
+				(at 2.54 -7.62 0)
+				(length 2.54)
 				(name "O.S."
 					(effects
 						(font
@@ -5927,8 +6145,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
-				(length 5.08)
+				(at 2.54 -12.7 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -5945,8 +6163,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 0 180)
-				(length 5.08)
+				(at 20.32 0 180)
+				(length 2.54)
 				(name "SDA"
 					(effects
 						(font
@@ -5963,8 +6181,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -2.54 180)
-				(length 5.08)
+				(at 20.32 -2.54 180)
+				(length 2.54)
 				(name "SCL"
 					(effects
 						(font
@@ -5981,8 +6199,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -7.62 180)
-				(length 5.08)
+				(at 20.32 -7.62 180)
+				(length 2.54)
 				(name "A0"
 					(effects
 						(font
@@ -5999,8 +6217,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -10.16 180)
-				(length 5.08)
+				(at 20.32 -10.16 180)
+				(length 2.54)
 				(name "A1"
 					(effects
 						(font
@@ -6017,8 +6235,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 22.86 -12.7 180)
-				(length 5.08)
+				(at 20.32 -12.7 180)
+				(length 2.54)
 				(name "A2"
 					(effects
 						(font
