@@ -3493,7 +3493,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "ESP32S3WROOM1N16R8"
+		(property "Footprint" "V_pcbLib_KiCad_noller:ESP32S3WROOM1N16R8"
 			(at 29.21 -94.92 0)
 			(effects
 				(font

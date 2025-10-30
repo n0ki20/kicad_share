@@ -4278,14 +4278,14 @@
 			(pin passive line
 				(at 55.88 -7.62 180)
 				(length 5.08)
-				(name "TXD0"
+				(name "RXD0/IO44"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "37"
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4296,14 +4296,14 @@
 			(pin passive line
 				(at 55.88 -10.16 180)
 				(length 5.08)
-				(name "RXD0"
+				(name "TXD0/IO43"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "36"
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
