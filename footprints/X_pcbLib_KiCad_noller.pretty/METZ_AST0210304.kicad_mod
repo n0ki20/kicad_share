@@ -1,0 +1,128 @@
+(footprint "METZ_AST0210304"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Clamp Terminal, 1x03, 180°, 0.5mm2, white (Reichelt: AST 021-03)")
+	(property "Reference" "REF**"
+		(at 0.4 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "24ff7198-d911-4c32-8416-311266d05309")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "METZ_AST0210304"
+		(at 2.3 -3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0636b7cc-57e1-4c2d-ba09-f897dbcf235e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64215bc2-80cd-413e-a667-246cef5f1077")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9b61899-62bf-43dc-9e55-7ab7c9af78b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.6 -5.5)
+		(end 6.4 5.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e00c6372-349b-4f0f-9815-dcc75699fa9d")
+	)
+	(fp_rect
+		(start -1.8 -5.7)
+		(end 6.6 10.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eee1cecb-9cec-41b6-9642-beb7084ecef3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 -1.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "beb43c31-97ab-4020-a3e0-1674ad2e39a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "df4bdfce-1ea0-400a-9038-936eb60050aa")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c77891f6-868b-4078-acd4-00fe7f280dad")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.3 1.3)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a8b9c26-65df-4c23-927e-06658a44187c")
+	)
+	(embedded_fonts no)
+	(model "%userprofile%/Documents/kicad_share/3dmodels/METZ_AST0210304/st02103hdnn.stp"
+		(offset
+			(xyz -51.5 -5.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
