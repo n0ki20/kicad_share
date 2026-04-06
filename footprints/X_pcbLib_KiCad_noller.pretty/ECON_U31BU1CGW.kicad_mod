@@ -1,4 +1,4 @@
-(footprint "U31BU1CGW"
+(footprint "ECON_U31BU1CGW"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -468,6 +468,17 @@
 	(model "${KICAD9_3DMODEL_DIR}/ECON_U31BU1CGW/U31BU1CGW.stp"
 		(offset
 			(xyz 0 -4.5 1.65)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+	(model "C:/Users/Kilian/Documents/kicad_share/3dmodels/ECON_U31BU1CGW/U31BU1CGW.stp"
+		(offset
+			(xyz 0 -4.5 1.5)
 		)
 		(scale
 			(xyz 1 1 1)

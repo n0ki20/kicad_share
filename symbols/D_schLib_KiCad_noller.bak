@@ -113,6 +113,8 @@
 			(polyline
 				(pts
 					(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+<<<<<<< HEAD
+=======
 				)
 				(stroke
 					(width 0.254)
@@ -122,6 +124,32 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+<<<<<<< HEAD
 			(polyline
 				(pts
 					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
@@ -134,6 +162,8 @@
 					(type none)
 				)
 			)
+=======
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.778)
@@ -3020,6 +3050,7 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< HEAD
 	(symbol "LON_LTPL-G35UV275GR-E"
 		(pin_numbers
 			(hide yes)
@@ -3027,12 +3058,22 @@
 		(pin_names
 			(offset 0.254)
 			(hide yes)
+=======
+	(symbol "NEXP_IP4220CZ6,125"
+		(pin_names
+			(offset 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+<<<<<<< HEAD
 		(property "Reference" "D"
 			(at -1.27 3.175 0)
+=======
+		(property "Reference" "U"
+			(at -20.32 10.16 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,17 +3081,30 @@
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Value" "LON_LTPL-G35UV275GR-E"
 			(at 8.89 -2.54 0)
 			(effects
 				(font
 					(size 0.635 0.635)
+=======
+		(property "Value" "NEXP_IP4220CZ6,125"
+			(at -20.32 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 				)
 				(justify left)
 			)
 		)
+<<<<<<< HEAD
 		(property "Footprint" "D_pcbLib_KiCad_noller:LON_LTPL-G35UV275GR-E"
 			(at 0 6.35 0)
+=======
+		(property "Footprint" "D_pcbLib_KiCad_noller:SOT-23-6"
+			(at 0 17.78 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,8 +3112,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A500/LTPL-G35UV275GR-EDATASHEET20201105VERSIONF.pdf"
 			(at 0 10.414 0)
+=======
+		(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/A400/PHI_IP4220CZ6_DB-EN.pdf"
+			(at 0 19.685 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,8 +3126,31 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "LED UVC, 275 nm, 6.5V, 180mA, SMD"
 			(at -1.778 17.78 0)
+=======
+		(property "Description" "TVS, Dual USB 2.0"
+			(at 0 15.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer ID" "IP4220CZ6,125"
+			(at 0 20.32 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3077,7 +3159,11 @@
 			)
 		)
 		(property "Supplier" "Reichelt"
+<<<<<<< HEAD
 			(at 0 7.62 0)
+=======
+			(at -2.54 22.86 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,8 +3171,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Supplier ID" "LTPL-G35UV275GR"
 			(at 1.27 7.62 0)
+=======
+		(property "Supplier ID" "PHI IP4220CZ6"
+			(at 0 25.4 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,6 +3185,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Manufacturer" "LiteOn"
 			(at 1.016 13.97 0)
 			(effects
@@ -3113,6 +3205,9 @@
 			)
 		)
 		(property "ki_keywords" "LED diode light-emitting-diode"
+=======
+		(property "ki_keywords" "ESD protection TVS"
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(at 0 0 0)
 			(effects
 				(font
@@ -3121,7 +3216,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+=======
+		(property "ki_fp_filters" "Diodes*UDFN*1x2.5mm*P0.5mm*"
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 			(at 0 0 0)
 			(effects
 				(font
@@ -3130,10 +3229,28 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(symbol "LON_LTPL-G35UV275GR-E_0_1"
 			(polyline
 				(pts
 					(xy -2.54 -3.81) (xy -2.54 -3.81)
+=======
+		(symbol "NEXP_IP4220CZ6,125_0_0"
+			(rectangle
+				(start -5.715 6.477)
+				(end 5.715 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -3.81) (xy -3.175 6.477)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 				)
 				(stroke
 					(width 0)
@@ -3145,6 +3262,7 @@
 			)
 			(polyline
 				(pts
+<<<<<<< HEAD
 					(xy -0.762 -1.016) (xy -0.762 1.016)
 				)
 				(stroke
@@ -3158,6 +3276,9 @@
 			(polyline
 				(pts
 					(xy -0.762 -3.81) (xy -2.54 -3.81) (xy -2.54 0)
+=======
+					(xy 0 7.62) (xy 0 -3.81)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 				)
 				(stroke
 					(width 0)
@@ -3169,6 +3290,7 @@
 			)
 			(polyline
 				(pts
+<<<<<<< HEAD
 					(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
 				)
 				(stroke
@@ -3218,6 +3340,9 @@
 			(polyline
 				(pts
 					(xy 2.54 -3.81) (xy 2.54 0)
+=======
+					(xy 3.175 6.477) (xy 3.175 -3.81)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 				)
 				(stroke
 					(width 0)
@@ -3228,6 +3353,7 @@
 				)
 			)
 		)
+<<<<<<< HEAD
 		(symbol "LON_LTPL-G35UV275GR-E_1_1"
 			(circle
 				(center -2.54 0)
@@ -3235,29 +3361,37 @@
 				(stroke
 					(width 0)
 					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
+=======
+		(symbol "NEXP_IP4220CZ6,125_0_1"
 			(polyline
 				(pts
-					(xy -0.762 -2.794) (xy 0.762 -3.81) (xy -0.762 -4.826) (xy -0.762 -2.794)
+					(xy -7.747 2.54) (xy -3.175 2.54)
 				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 1.27 -4.572) (xy 1.27 -4.826) (xy 0.762 -4.826) (xy 0.762 -2.794) (xy 0.254 -2.794) (xy 0.254 -3.048)
-				)
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -5.08)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -5.715 0)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -3265,20 +3399,445 @@
 				)
 			)
 			(circle
-				(center 2.54 0)
-				(radius 0.254)
+				(center -5.715 0)
+				(radius 0.2794)
 				(stroke
 					(width 0)
-					(type solid)
+					(type default)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 				)
 				(fill
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+<<<<<<< HEAD
+					(xy -0.762 -2.794) (xy 0.762 -3.81) (xy -0.762 -4.826) (xy -0.762 -2.794)
+				)
+				(stroke
+					(width 0.254)
+=======
+					(xy -5.08 5.08) (xy -6.35 5.08)
+				)
+				(stroke
+					(width 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+<<<<<<< HEAD
+					(xy 1.27 -4.572) (xy 1.27 -4.826) (xy 0.762 -4.826) (xy 0.762 -2.794) (xy 0.254 -2.794) (xy 0.254 -3.048)
+				)
+				(stroke
+					(width 0.254)
+=======
+					(xy -5.08 3.81) (xy -6.35 3.81) (xy -5.715 5.08) (xy -5.08 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -1.27) (xy -6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -6.35 -2.54) (xy -5.715 -1.27) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+<<<<<<< HEAD
+				(center 2.54 0)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type solid)
+=======
+				(center -3.1804 -3.7767)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
+				)
+				(fill
+					(type outline)
+				)
+			)
+<<<<<<< HEAD
 			(pin passive line
 				(at -5.08 0 0)
 				(length 4.318)
 				(name "K"
+=======
+			(circle
+				(center -3.175 6.477)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -3.175 2.54)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -3.81 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 3.81) (xy -3.81 3.81) (xy -3.175 5.08) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -3.81 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -3.81 -2.54) (xy -3.175 -1.27) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 2.032) (xy -1.016 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 6.477)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -3.81)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.064) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.032) (xy -0.762 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.032) (xy 1.016 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.762) (xy -0.762 0.762) (xy 0 2.032) (xy 0.762 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 3.175 6.477)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 3.175 0)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 3.175 -3.81)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 5.08) (xy 2.54 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 2.54 3.81) (xy 3.175 5.08) (xy 3.81 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.27) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -2.54) (xy 2.54 -2.54) (xy 3.175 -1.27) (xy 3.81 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 5.715 2.54)
+				(radius 0.2794)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 5.08) (xy 5.08 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 3.81) (xy 5.08 3.81) (xy 5.715 5.08) (xy 6.35 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -1.27) (xy 5.08 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 -2.54) (xy 5.08 -2.54) (xy 5.715 -1.27) (xy 6.35 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 5.715 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 3.175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NEXP_IP4220CZ6,125_1_1"
+			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "~"
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3293,10 +3852,35 @@
 					)
 				)
 			)
+<<<<<<< HEAD
 			(pin passive line
 				(at 5.08 0 180)
 				(length 4.318)
 				(name "A"
+=======
+			(pin power_in line
+				(at 0 10.16 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "~"
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3311,6 +3895,45 @@
 					)
 				)
 			)
+<<<<<<< HEAD
+=======
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 		)
 		(embedded_fonts no)
 	)
@@ -4255,6 +4878,201 @@
 					)
 				)
 			)
+<<<<<<< HEAD
+=======
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TAIWAN_SK36A"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TAIWAN_SK36A"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" "D_pcbLib_KiCad_noller:SMA"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky, 60V, 3A, SMA"
+			(at 1.27 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Taiwan Semiconductor"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer ID" "SK36A"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Reichelt"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 ID" "SK36A"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Price" "0.15 €"
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode schottky"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "D*SMA*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TAIWAN_SK36A_1_1"
+			(polyline
+				(pts
+					(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.778)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.778)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+>>>>>>> 4eee3c81db23cfcea2f89c1e742479ed26a8ac3c
 		)
 		(embedded_fonts no)
 	)

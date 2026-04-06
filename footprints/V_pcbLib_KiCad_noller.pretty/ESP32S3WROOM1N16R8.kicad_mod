@@ -511,7 +511,7 @@
 		(uuid "88a8ea09-c26f-456b-9265-90b5636cfbd7")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/ESP32S3WROOM1N16R8/ESP32-S3-WROOM-1-N16R8.stp"
+	(model "%userprofile%/Documents/kicad_share/3dmodels/ESP32S3WROOM1N16R8/ESP32-S3-WROOM-1-N16R8.stp"
 		(offset
 			(xyz 0 0 0)
 		)

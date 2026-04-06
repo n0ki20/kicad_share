@@ -1,9 +1,9 @@
 (footprint "FASTRON_1008F"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SMD 2x2,43mm")
+	(descr "SMD 2.00x2.43mm")
 	(property "Reference" "REF**"
 		(at 0.1 -2.15 0)
 		(layer "F.SilkS")
@@ -22,18 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "be59ee23-a9c2-419c-bd59-8da587024a98")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -206,15 +194,16 @@
 	(pad "1" smd rect
 		(at -1.15 0)
 		(size 1 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "11d6c29f-969a-4ece-a70f-e42690dee4ab")
 	)
 	(pad "2" smd rect
 		(at 1.15 0)
 		(size 1 2.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5246ddaf-581c-4fd8-862b-183f8571c704")
 	)
+	(embedded_fonts no)
 	(model "%userprofile%/Documents/kicad_share/3dmodels/FASTR_1008F-220K-08/AISC-1008F-4R7G-T--3DModel-STEP-400430.STEP"
 		(offset
 			(xyz 0 0 1.5)
