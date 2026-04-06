@@ -1,0 +1,145 @@
+(footprint "LON_LTPL-G35UV275GR-E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LTPL-G35UV275GR-E-2")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at -0.3 -3.7 0)
+		(layer "F.SilkS")
+		(uuid "a48246fe-f28c-49ef-b7af-d7d56f79a7a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LTPLG35UV275GRE"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c4663316-c5a5-438e-b681-19989c34c6c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "430c2466-8337-4b81-ad41-d61af06dea27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35710ccf-c1db-413f-bc94-942095702cdf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5b239bd9-8e2d-4c98-b172-80ec06e262eb")
+	)
+	(fp_line
+		(start -1.725 -1.725)
+		(end -1.725 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d709780-25db-47a2-87b1-961999664735")
+	)
+	(fp_line
+		(start -1.725 1.725)
+		(end 1.725 1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10635ed9-82b3-4077-af83-a9261210dbf7")
+	)
+	(fp_line
+		(start 1.725 -1.725)
+		(end -1.725 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f4224cc-8f0b-4a9d-8e73-0704a8e6d707")
+	)
+	(fp_line
+		(start 1.725 1.725)
+		(end 1.725 -1.725)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "53bea31d-955c-4b7b-8a58-84a37c0fef53")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1f5a8b1d-ec13-48b0-bb85-57e29a87136a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.915 0)
+		(size 1.33 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.3)
+		(chamfer top_left)
+		(uuid "4c3eba4a-38b3-469f-a3af-199209439ee3")
+	)
+	(pad "2" smd rect
+		(at 0.915 0)
+		(size 1.33 3.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b67176c-bf2d-41c2-81cc-0a1e52002a32")
+	)
+	(embedded_fonts no)
+	(model "LTPL-G35UV275GR-E.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
