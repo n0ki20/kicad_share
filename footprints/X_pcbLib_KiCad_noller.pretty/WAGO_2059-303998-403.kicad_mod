@@ -1,0 +1,337 @@
+(footprint "WAGO_2059-303998-403"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2059-303/998-403-3")
+	(tags "Connector")
+	(property "Reference" "X**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f061588b-5614-409f-817e-d5572754cccb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "2059303998403"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "96e0a41a-c229-4959-a7db-6f4614c0922c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf76ed7f-9e1c-4353-8dd1-71266d1f0fcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "452ce5e1-8c7b-4266-8a95-f98b1b14938f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.575 -3.1)
+		(end -4.575 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de322b81-e86c-45f5-be64-8b7fdaa815f1")
+	)
+	(fp_line
+		(start -4.575 -3)
+		(end -4.575 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74c16292-a9db-4d14-b355-026801e5eca6")
+	)
+	(fp_line
+		(start -3.675 -4.45)
+		(end 3.725 -4.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d319ffb-cb88-4785-8005-31dac64d8e1e")
+	)
+	(fp_line
+		(start -3.675 -3.9)
+		(end -3.675 -4.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98a827f9-d377-4b71-9a0e-ab8b4ad29089")
+	)
+	(fp_line
+		(start -3.675 -2.1)
+		(end -3.675 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "443a0209-e7b6-494f-8b14-bfde44a8dc8d")
+	)
+	(fp_line
+		(start -3.675 0.9)
+		(end -3.675 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "da4614d1-8f22-4811-9f33-357566e26269")
+	)
+	(fp_line
+		(start -3.675 3.9)
+		(end -3.675 4.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e15c956c-cce5-4255-836b-c2a98f6df7bb")
+	)
+	(fp_line
+		(start -3.675 4.45)
+		(end 3.725 4.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6853d8d4-9285-4f94-a113-f4bafbef3df5")
+	)
+	(fp_line
+		(start 3.725 -4.45)
+		(end 3.725 -3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "adf3b798-18dd-490e-a1c0-f01df95789df")
+	)
+	(fp_line
+		(start 3.725 -2.1)
+		(end 3.725 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68132f16-136d-42a4-a396-a8d5688be88b")
+	)
+	(fp_line
+		(start 3.725 0.9)
+		(end 3.725 2.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd8e1f61-4707-48e5-aa00-4bb9539c92c7")
+	)
+	(fp_line
+		(start 3.725 4.45)
+		(end 3.725 3.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5f58428-9a53-4ba2-885d-979ceade0950")
+	)
+	(fp_arc
+		(start -4.575 -3.1)
+		(mid -4.525 -3.05)
+		(end -4.575 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "174d715d-9943-4a81-a704-0f9337849003")
+	)
+	(fp_arc
+		(start -4.575 -3)
+		(mid -4.625 -3.05)
+		(end -4.575 -3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7562ab0-1208-415b-8bab-7aa73aeb4431")
+	)
+	(fp_line
+		(start -4.1 -4.625)
+		(end 4.699937 -4.600071)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9ec48725-e070-4924-bc61-6b2e947f8aad")
+	)
+	(fp_line
+		(start -4.1 4.6)
+		(end -4.1 -4.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce0faf78-517c-4421-8821-619826ebf6ad")
+	)
+	(fp_line
+		(start 4.699937 -4.600071)
+		(end 4.7 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a4f3c81b-4aa4-4135-850a-ce30cca26c4b")
+	)
+	(fp_line
+		(start 4.7 4.6)
+		(end -4.1 4.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34bd3b9b-b7c4-40b6-b7f1-e1fd77443266")
+	)
+	(fp_line
+		(start -3.675 -4.45)
+		(end 3.725 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c1dc187-7539-4fa1-bc74-fc7d73a2d8c9")
+	)
+	(fp_line
+		(start -3.675 4.45)
+		(end -3.675 -4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17ed71c0-ee3e-4169-9772-6fd1a3f928a5")
+	)
+	(fp_line
+		(start 3.725 -4.45)
+		(end 3.725 4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aaf47f90-276c-454d-bb26-97b3c091d6c1")
+	)
+	(fp_line
+		(start 3.725 4.45)
+		(end -3.675 4.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dd53a3c-62a9-443b-9eb8-3a5a7574c951")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "466e659d-a6c8-41e9-ad13-822ec84a1ea6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.825 -3 90)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "681767d5-21b3-4d58-87d3-9c57e878eb55")
+	)
+	(pad "1" smd rect
+		(at 3.375 -3 90)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03ac1bc6-1b1f-422c-b5f1-ec5a056509bf")
+	)
+	(pad "2" smd rect
+		(at -2.825 0 90)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79ad5d07-d140-4295-abb2-5009843864ed")
+	)
+	(pad "2" smd rect
+		(at 3.375 0 90)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6a0311b4-7c5b-4ce4-a8dc-689c4526074a")
+	)
+	(pad "3" smd rect
+		(at -2.825 3 90)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8062a478-497b-411a-88fb-9df20991f6a8")
+	)
+	(pad "3" smd rect
+		(at 3.375 3 90)
+		(size 1.4 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58465e84-516c-4ff0-81da-710c2efcfecc")
+	)
+	(embedded_fonts no)
+	(model "%userprofile%/Documents/kicad_share/3dmodels/WAGO_2059-303998-403/WAGO_2059-303998-403.stp"
+		(offset
+			(xyz -3.65 -4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
