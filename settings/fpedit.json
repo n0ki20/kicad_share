@@ -5,9 +5,9 @@
   },
   "aui": {
     "appearance_panel_tab": 0,
-    "properties_panel_width": -1,
+    "properties_panel_width": 20,
     "properties_splitter_proportion": 0.5,
-    "right_panel_width": -1,
+    "right_panel_width": 180,
     "show_layer_manager": true,
     "show_properties": false
   },
@@ -65,31 +65,32 @@
       "extension_offset": 500000,
       "keep_text_aligned": true,
       "precision": 4,
-      "suppress_zeroes": true,
+      "suppress_zeroes": false,
       "text_position": 0,
       "units": 3,
-      "units_format": 0
+      "units_format": 1
     },
-    "edge_line_width": 0.05,
+    "edge_line_width": 0.1,
     "fab_line_width": 0.1,
     "fab_text_italic": false,
     "fab_text_size_h": 1.0,
     "fab_text_size_v": 1.0,
     "fab_text_thickness": 0.15,
-    "others_line_width": 0.1,
+    "others_line_width": 0.15,
     "others_text_italic": false,
     "others_text_size_h": 1.0,
     "others_text_size_v": 1.0,
     "others_text_thickness": 0.15,
-    "silk_line_width": 0.1,
+    "silk_line_width": 0.15,
     "silk_text_italic": false,
     "silk_text_size_h": 1.0,
     "silk_text_size_v": 1.0,
-    "silk_text_thickness": 0.1,
+    "silk_text_thickness": 0.15,
     "user_layer_count": 4
   },
   "editing": {
     "fp_angle_snap_mode": 1,
+    "fp_use_45_degree_limit": false,
     "magnetic_all_layers": false,
     "magnetic_graphics": true,
     "magnetic_pads": 2,
@@ -120,13 +121,22 @@
     "search_and_replace": false
   },
   "graphics": {
+    "canvas_type": 1,
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
   "lib_tree": {
-    "column_widths": null,
-    "columns": [],
-    "open_libs": []
+    "column_widths": {
+      "Description": 301,
+      "Item": 300
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ],
+    "open_libs": [
+      "X_pcbLib_KiCad_noller"
+    ]
   },
   "library": {
     "sort_mode": 0
@@ -180,14 +190,16 @@
     "aui_state": null,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 1
+      "cross_hair_mode": 0,
+      "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
+    "footprint_text_shown_columns": "0 1 2 3 4 5 6",
     "grid": {
-      "axes_enabled": false,
+      "axes_enabled": true,
       "fast_grid_1": 15,
       "fast_grid_2": 16,
-      "last_size": 15,
+      "last_size": 18,
       "line_width": 1.0,
       "min_spacing": 10.0,
       "override_connected": false,
@@ -200,7 +212,7 @@
       "override_vias_idx": 18,
       "override_wires": false,
       "override_wires_idx": 19,
-      "overrides_enabled": true,
+      "overrides_enabled": false,
       "show": true,
       "sizes": [
         {
@@ -319,14 +331,14 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "lib_width": 250,
-    "maximized": false,
-    "mru_path": "",
-    "perspective": "",
-    "pos_x": 0,
-    "pos_y": 0,
-    "size_x": 0,
-    "size_y": 0,
+    "lib_width": 466,
+    "maximized": true,
+    "mru_path": "C:\\Users\\Kilian\\OneDrive\\Projekte\\NiZn-SolarCharger\\elec\\Mainboard\\lib",
+    "perspective": "layout2|name=InfoBar;caption=;state=131454;dir=1;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1204;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Footprints;caption=Bibliotheken;state=2044;dir=4;layer=4;row=0;pos=0;prop=100000;bestw=250;besth=-1;minw=250;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Eigenschaften;state=1534;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=512;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=34;besth=608;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Darstellung;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Auswahlfilter;state=1532;dir=2;layer=3;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=158;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(3,6,0)=30|dock_size(4,4,0)=468|dock_size(4,2,0)=34|dock_size(2,2,0)=34|dock_size(2,3,0)=180|dock_size(5,0,0)=386|",
+    "pos_x": 1912,
+    "pos_y": -8,
+    "size_x": 1936,
+    "size_y": 1056,
     "zoom_factors": [
       0.13,
       0.22,

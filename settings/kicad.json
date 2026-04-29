@@ -41,6 +41,7 @@
     "search_and_replace": false
   },
   "graphics": {
+    "canvas_type": 1,
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
@@ -90,17 +91,18 @@
   "system": {
     "check_for_kicad_updates": true,
     "file_history": [
-      "C:\\Users\\noller\\OneDrive\\Projekte\\Datalogger\\elec\\Datalogger_PicoStack\\Datalogger_PicoStack.kicad_pro"
+      "C:\\Users\\Kilian\\OneDrive\\Projekte\\Datalogger\\elec\\Datalogger_PicoStack\\Datalogger_PicoStack.kicad_pro",
+      "C:\\Users\\Kilian\\OneDrive\\Projekte\\Transit\\Elektrik\\DSB_TestBoard_GitHub\\DSB_TestBoard_Logic\\DSB_TestBoard.kicad_pro"
     ],
     "first_run_shown": false,
     "last_design_block_lib_dir": "",
     "last_imperial_units": 5,
     "last_metric_units": 1,
-    "last_received_update": "",
-    "last_update_check_time": "2026-04-29T12:20:16",
+    "last_received_update": "9.0.7",
+    "last_update_check_time": "2026-04-29T23:34:39",
     "max_undo_items": 0,
     "open_projects": [
-      "C:\\Users\\noller\\OneDrive\\Projekte\\Datalogger\\elec\\Datalogger_PicoStack\\Datalogger_PicoStack.kicad_pro"
+      "C:\\Users\\Kilian\\OneDrive\\Projekte\\Datalogger\\elec\\Datalogger_PicoStack\\Datalogger_PicoStack.kicad_pro"
     ],
     "show_import_issues": true,
     "units": 1
@@ -235,9 +237,10 @@
     },
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0
+      "cross_hair_mode": 0,
+      "fullscreen_cursor": false
     },
-    "display": 1,
+    "display": 0,
     "grid": {
       "axes_enabled": false,
       "fast_grid_1": 15,
@@ -255,7 +258,7 @@
       "override_vias_idx": 18,
       "override_wires": false,
       "override_wires_idx": 19,
-      "overrides_enabled": true,
+      "overrides_enabled": false,
       "show": true,
       "sizes": [
         {
@@ -375,10 +378,10 @@
       "user_grid_y": ""
     },
     "maximized": false,
-    "mru_path": "C:\\Users\\noller\\OneDrive\\Projekte\\Datalogger\\elec\\Datalogger_PicoStack\\",
+    "mru_path": "C:\\Users\\Kilian\\OneDrive\\Projekte\\Datalogger\\elec\\Datalogger_PicoStack\\",
     "perspective": "",
-    "pos_x": 1243,
-    "pos_y": 370,
+    "pos_x": 483,
+    "pos_y": 194,
     "size_x": 954,
     "size_y": 652,
     "zoom_factors": [

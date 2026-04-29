@@ -44,7 +44,8 @@
     "autozoom": true,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0
+      "cross_hair_mode": 0,
+      "fullscreen_cursor": false
     },
     "display": 0,
     "grid": {
@@ -64,7 +65,7 @@
       "override_vias_idx": 18,
       "override_wires": false,
       "override_wires_idx": 19,
-      "overrides_enabled": true,
+      "overrides_enabled": false,
       "show": true,
       "sizes": [
         {
@@ -194,6 +195,7 @@
     "show_text_fill": true,
     "size_x": 0,
     "size_y": 0,
+    "use_45_limit": true,
     "zoom": 1.0,
     "zoom_factors": [
       0.13,
@@ -218,13 +220,22 @@
   },
   "footprints_pane_width": 0,
   "graphics": {
+    "canvas_type": 1,
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
   "lib_tree": {
-    "column_widths": null,
-    "columns": [],
-    "open_libs": []
+    "column_widths": {
+      "Description": 184,
+      "Item": 300
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ],
+    "open_libs": [
+      "X_pcbLib_KiCad_noller"
+    ]
   },
   "libraries_pane_width": 0,
   "meta": {
@@ -265,7 +276,8 @@
     "aui_state": null,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0
+      "cross_hair_mode": 0,
+      "fullscreen_cursor": false
     },
     "display": 0,
     "grid": {
@@ -285,7 +297,7 @@
       "override_vias_idx": 18,
       "override_wires": false,
       "override_wires_idx": 19,
-      "overrides_enabled": true,
+      "overrides_enabled": false,
       "show": true,
       "sizes": [
         {

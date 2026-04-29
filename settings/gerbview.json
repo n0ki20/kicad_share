@@ -53,6 +53,7 @@
   "gerber_to_pcb_copperlayers_count": 2,
   "gerber_to_pcb_layers": [],
   "graphics": {
+    "canvas_type": 1,
     "highlight_factor": 0.5,
     "select_factor": 0.75
   },
@@ -88,7 +89,17 @@
   },
   "system": {
     "drill_file_history": [],
-    "file_history": [],
+    "file_history": [
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Soldermask_Top.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Soldermask_Bot.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_PTH_Drill.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Profile.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Paste_Top.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Paste_Bot.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Pads_Top.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_Pads_Bot.gbr",
+      "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2\\Mainboard_NPTH_Drill.gbr"
+    ],
     "first_run_shown": false,
     "job_file_history": [],
     "last_imperial_units": 5,
@@ -102,11 +113,12 @@
     "aui_state": null,
     "cursor": {
       "always_show_cursor": true,
-      "cross_hair_mode": 0
+      "cross_hair_mode": 0,
+      "fullscreen_cursor": false
     },
-    "display": 0,
+    "display": 1,
     "grid": {
-      "axes_enabled": false,
+      "axes_enabled": true,
       "fast_grid_1": 15,
       "fast_grid_2": 16,
       "last_size": 15,
@@ -122,9 +134,29 @@
       "override_vias_idx": 18,
       "override_wires": false,
       "override_wires_idx": 19,
-      "overrides_enabled": true,
+      "overrides_enabled": false,
       "show": true,
       "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
         {
           "name": "",
           "x": "100 mil",
@@ -157,11 +189,6 @@
         },
         {
           "name": "",
-          "x": "2.5 mil",
-          "y": "2.5 mil"
-        },
-        {
-          "name": "",
           "x": "2 mil",
           "y": "2 mil"
         },
@@ -172,27 +199,12 @@
         },
         {
           "name": "",
-          "x": "0.5 mil",
-          "y": "0.5 mil"
-        },
-        {
-          "name": "",
-          "x": "0.2 mil",
-          "y": "0.2 mil"
-        },
-        {
-          "name": "",
-          "x": "0.1 mil",
-          "y": "0.1 mil"
-        },
-        {
-          "name": "",
           "x": "5.0 mm",
           "y": "5.0 mm"
         },
         {
           "name": "",
-          "x": "1.5 mm",
+          "x": "2.5 mm",
           "y": "2.5 mm"
         },
         {
@@ -223,17 +235,17 @@
         {
           "name": "",
           "x": "0.05 mm",
-          "y": "0.0 mm"
+          "y": "0.05 mm"
         },
         {
           "name": "",
           "x": "0.025 mm",
-          "y": "0.0 mm"
+          "y": "0.025 mm"
         },
         {
           "name": "",
           "x": "0.01 mm",
-          "y": "0.0 mm"
+          "y": "0.01 mm"
         }
       ],
       "snap": 0,
@@ -241,13 +253,13 @@
       "user_grid_x": "",
       "user_grid_y": ""
     },
-    "maximized": false,
-    "mru_path": "",
-    "perspective": "",
-    "pos_x": 0,
-    "pos_y": 0,
-    "size_x": 0,
-    "size_y": 0,
+    "maximized": true,
+    "mru_path": "C:\\Users\\Kilian\\Documents\\412581-0001_Mainboard_00_02 (002)\\412581-0001_Medtester_Mainboard_Rev-.2\\412581-0001_Mainboard_GerberX2",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=606;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=4;row=0;pos=0;prop=100000;bestw=953;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=384;besth=30;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=616;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Lagenverwaltung;state=1532;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=373;besth=32;minw=373;minh=32;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=373;floath=32|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=384;besth=158;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,6,0)=34|dock_size(1,4,0)=27|dock_size(3,6,0)=30|dock_size(4,3,0)=34|dock_size(2,3,0)=373|dock_size(5,0,0)=386|",
+    "pos_x": -8,
+    "pos_y": -8,
+    "size_x": 1936,
+    "size_y": 1056,
     "zoom_factors": [
       0.022,
       0.035,

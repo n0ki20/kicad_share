@@ -2322,7 +2322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buck converter, +3.3V, 0.5A, SOT223-3"
+		(property "Description" "Linear Buck Converter, +3.3V, 0.5A, SOT223-3"
 			(at -1.27 11.43 0)
 			(effects
 				(font
