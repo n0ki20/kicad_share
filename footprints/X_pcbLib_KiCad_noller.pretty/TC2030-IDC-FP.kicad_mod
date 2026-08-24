@@ -1,0 +1,642 @@
+(footprint "TC2030-IDC-FP"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.635 5.08 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TC2030-IDC-FP"
+		(at 0 -4.445 0)
+		(layer "F.Fab")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -1.27 -0.381)
+		(end -1.016 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -1.27 0.127)
+		(end -0.508 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -1.27 0.635)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -1.27 0.635)
+		(end 0 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -0.762 0.635)
+		(end 0.508 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -0.254 0.635)
+		(end 1.016 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 0.254 0.635)
+		(end 1.27 -0.381)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 0.762 0.635)
+		(end 1.27 0.127)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 1.27 -0.635)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 1.27 -0.635)
+		(end 1.27 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 1.27 0.635)
+		(end -1.27 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -3.3147 -4.7752)
+		(end -3.3147 -3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -3.3147 -3.4417)
+		(end -1.7653 -3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -3.3147 3.4417)
+		(end -1.7653 3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -3.3147 4.7752)
+		(end -3.3147 3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -2.54 -4.7752)
+		(end -3.3147 -4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -2.54 -4.7752)
+		(end -1.7653 -4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -2.54 4.7752)
+		(end -3.3147 4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -2.54 4.7752)
+		(end -1.7653 4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -1.7653 -4.7752)
+		(end -1.7653 -3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -1.7653 4.7752)
+		(end -1.7653 3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -0.1397 -4.7752)
+		(end -0.1397 -3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -0.1397 -3.4417)
+		(end 1.4097 -3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -0.1397 3.4417)
+		(end 1.4097 3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -0.1397 4.7752)
+		(end -0.1397 3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 0.635 -4.7752)
+		(end -0.1397 -4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 0.635 -4.7752)
+		(end 1.4097 -4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 0.635 4.7752)
+		(end -0.1397 4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 0.635 4.7752)
+		(end 1.4097 4.7752)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 1.4097 -4.7752)
+		(end 1.4097 -3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 1.4097 4.7752)
+		(end 1.4097 3.4417)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -3.192429 0.777535)
+		(end -1.9675 1.843105)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start -1.9675 -1.843105)
+		(end -3.192429 -0.777535)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 2.54 -2.03)
+		(end -1.27 -2.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 2.54 2.03)
+		(end -1.27 2.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_line
+		(start 3.555 -1.015)
+		(end 3.555 1.015)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_arc
+		(start -3.555 0)
+		(mid -3.459902 -0.428958)
+		(end -3.192429 -0.777535)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_arc
+		(start -3.192429 0.777535)
+		(mid -3.459902 0.428958)
+		(end -3.555 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_arc
+		(start -1.9675 -1.843105)
+		(mid -1.631053 -1.982466)
+		(end -1.27 -2.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_arc
+		(start -1.27 2.03)
+		(mid -1.631053 1.982466)
+		(end -1.9675 1.843105)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_arc
+		(start 2.54 -2.03)
+		(mid 3.257713 -1.732713)
+		(end 3.555 -1.015)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_arc
+		(start 3.555 1.015)
+		(mid 3.257713 1.732713)
+		(end 2.54 2.03)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(fp_text user "4"
+		(at 1.905 -1.4605 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "3"
+		(at 1.905 1.524 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "1"
+		(at -1.27 1.524 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "6"
+		(at -1.27 -1.4605 0)
+		(layer "F.SilkS")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "in keepout area"
+		(at 5.715 0.635 0)
+		(layer "Cmts.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "KEEPOUT"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "No tracks or vias"
+		(at 5.715 0 0)
+		(layer "Cmts.User")
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.3749 2.3749)
+		(drill 2.3749)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 0)
+		(size 0.991 0.991)
+		(drill 0.991)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.54 2.54)
+		(size 2.3749 2.3749)
+		(drill 2.3749)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.635 -2.54)
+		(size 2.3749 2.3749)
+		(drill 2.3749)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.635 2.54)
+		(size 2.3749 2.3749)
+		(drill 2.3749)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 -1.015)
+		(size 0.991 0.991)
+		(drill 0.991)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.54 1.015)
+		(size 0.991 0.991)
+		(drill 0.991)
+		(layers "*.Cu" "*.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "1" smd circle
+		(at -1.27 0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "2" smd circle
+		(at 0 0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "3" smd circle
+		(at 1.27 0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "4" smd circle
+		(at 1.27 -0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "5" smd circle
+		(at 0 -0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(pad "6" smd circle
+		(at -1.27 -0.635)
+		(size 0.787 0.787)
+		(layers "F.Cu" "F.Mask")
+		(uuid "00000000-0000-0000-0000-000000000000")
+	)
+	(embedded_fonts no)
+)

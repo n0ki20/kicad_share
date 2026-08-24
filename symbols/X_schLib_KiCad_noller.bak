@@ -996,7 +996,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "MH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1230,7 +1230,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "MH2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1248,7 +1248,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "MH4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "MH3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12477,7 +12477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X_pcbLib_KiCad_noller:SolderWire_1x01_1.5mm2_THT"
+		(property "Footprint" "X_pcbLib_KiCad_noller:SolderWire_1x01_0.5mm2_THT"
 			(at 0 6.35 0)
 			(effects
 				(font
