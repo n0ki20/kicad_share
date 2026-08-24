@@ -4,13 +4,16 @@
     "interpreter_path": "C:\\Program Files\\KiCad\\9.0\\bin\\pythonw.exe"
   },
   "appearance": {
+    "app_theme": 2,
     "grid_striping": false,
     "hicontrast_dimming_factor": 0.8,
     "icon_theme": 2,
-    "show_scrollbars": true,
+    "show_scrollbars": false,
     "text_editor_zoom": 0,
     "toolbar_icon_size": 24,
-    "use_icons_in_menus": true
+    "use_custom_cursors": true,
+    "use_icons_in_menus": true,
+    "zoom_correction_factor": 1.0
   },
   "auto_backup": {
     "backup_on_autosave": false,
@@ -19,6 +22,122 @@
     "limit_total_files": 25,
     "limit_total_size": 104857600,
     "min_interval": 300
+  },
+  "dialog": {
+    "controls": {
+      "*Pfade konfigurieren": {
+        "__geometry": {
+          "h": 455,
+          "w": 650,
+          "x": 635,
+          "y": 221
+        },
+        "wxStaticBox_0wxGrid_0": "0 1",
+        "wxStaticBox_0wxGrid_0wxWindow_2wxComboCtrl_0": "C:\\Users\\Kilian\\Documents\\kicad_share\\template",
+        "wxStaticBox_0wxGrid_0wxWindow_2wxComboCtrl_0wxTextCtrl_0": "C:\\Users\\Kilian\\Documents\\kicad_share\\template"
+      },
+      "Einstellungen": {
+        "__geometry": {
+          "h": 738,
+          "w": 1329,
+          "x": 255,
+          "y": 206
+        },
+        "wxControl_0wxCheckBox_0": false,
+        "wxPanel_0wxTreebook_0wxPanel_0wxSearchCtrl_0": "",
+        "wxPanel_0wxTreebook_0wxPanel_0wxSearchCtrl_0wxTextCtrl_0": "",
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_0": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_1": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_10": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_11": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_12": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_13": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_14": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_15": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_16": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_17": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_18": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_2": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_3": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_4": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_5": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_6": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_7": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_8": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxCheckBox_9": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxOwnerDrawnComboBox_0": 20,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxOwnerDrawnComboBox_0wxTextCtrl_0": "Arial",
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxCheckBox_0": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxChoice_0": 1,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxChoice_1": 0,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxRadioButton_0": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxRadioButton_1": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxRadioButton_2": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxRadioButton_3": true,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxRadioButton_4": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxRadioButton_5": false,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxPanel_0wxSpinCtrl_0": 10,
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxSpinCtrlDouble_0wxTextCtrl_0": "3",
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxSpinCtrlDouble_1wxTextCtrl_0": "4",
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxSpinCtrlDouble_2wxTextCtrl_0": "2",
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxSpinCtrlDouble_3wxTextCtrl_0": "15",
+        "wxPanel_0wxTreebook_0wxPanel_12wxPanel_0wxSpinCtrlDouble_4wxTextCtrl_0": "60",
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_0": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_1": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_10": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_11": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_2": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_3": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_4": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_5": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_6": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_7": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_8": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxCheckBox_9": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxChoice_0": 2,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxPanel_2wxChoice_0": 0,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxPanel_2wxSpinCtrl_0": 91,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_0": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_1": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_10": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_11": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_12": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_2": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_3": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_4": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_5": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_6": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_7": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_8": true,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxRadioButton_9": false,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxSpinCtrlDouble_0wxTextCtrl_0": "0",
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxSpinCtrl_0": 9,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxSpinCtrl_1": 100,
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxTextCtrl_0": "",
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxTextCtrl_1": "explorer.exe /n,/select,%F",
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxTextCtrl_2": "",
+        "wxPanel_0wxTreebook_0wxPanel_1wxPanel_0wxTextCtrl_3": "80",
+        "wxPanel_0wxTreebook_0wxPanel_55wxCheckBox_0": false,
+        "wxPanel_0wxTreebook_0wxPanel_55wxFilePickerCtrl_0wxTextCtrl_0": "C:\\Program Files\\KiCad\\9.0\\bin\\pythonw.exe",
+        "wxPanel_0wxTreebook_0wxPanel_56wxSpinCtrl_0": 30
+      },
+      "Symbolbibliotheken": {
+        "__geometry": {
+          "h": 677,
+          "w": 1026,
+          "x": 68,
+          "y": 87
+        },
+        "wxControl_0wxCheckBox_0": false,
+        "wxPanel_0wxAuiNotebook_0": "Globale Bibliotheken",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboCtrl_0": "C:/Program Files/KiCad/9.0/share/kicad/symbols/Interface_Optical.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxComboCtrl_0wxTextCtrl_0": "C:/Program Files/KiCad/9.0/share/kicad/symbols/Interface_Optical.kicad_sym",
+        "wxPanel_0wxAuiNotebook_0wxPanel_0wxGrid_0wxWindow_3wxTextCtrl_0": "Interface_Optical",
+        "wxPanel_0wxAuiNotebook_0wxPanel_1wxGrid_0": "0 1 2 3 4 5 6 7",
+        "wxPanel_0wxGrid_0": "0 1"
+      }
+    }
   },
   "do_not_show_again": {
     "data_collection_prompt": true,
@@ -29,7 +148,11 @@
   },
   "environment": {
     "vars": {
-      "KICAD_USER_TEMPLATE_DIR": "C:\\Users\\nolle\\Documents\\kicad_share\\template\\"
+      "KICAD10_3DMODEL_DIR": "C:\\Users\\Kilian\\Documents\\kicad_share\\3dmodels",
+      "KICAD10_FOOTPRINT_DIR": "C:\\Users\\Kilian\\Documents\\kicad_share\\footprints",
+      "KICAD10_SYMBOL_DIR": "C:\\Users\\Kilian\\Documents\\kicad_share\\symbols",
+      "KICAD10_TEMPLATE_DIR": "C:\\Users\\Kilian\\Documents\\kicad_share\\template",
+      "KICAD_USER_TEMPLATE_DIR": "C:\\Users\\Kilian\\Documents\\kicad_share\\template"
     }
   },
   "git": {
@@ -41,17 +164,20 @@
     "useDefaultAuthor": true
   },
   "graphics": {
+    "antialiasing_mode": 2,
     "cairo_antialiasing_mode": 0,
+    "canvas_type": 1,
     "opengl_antialiasing_mode": 1
   },
   "input": {
     "auto_pan": false,
     "auto_pan_acceleration": 5,
     "center_on_zoom": true,
-    "focus_follow_sch_pcb": true,
+    "focus_follow_sch_pcb": false,
     "horizontal_pan": false,
     "hotkey_feedback": true,
     "immediate_actions": true,
+    "motion_pan_modifier": 0,
     "mouse_left": -1,
     "mouse_middle": 2,
     "mouse_right": 2,
@@ -67,15 +193,15 @@
   },
   "meta": {
     "filename": "kicad_common.json",
-    "version": 3
+    "version": 5
   },
   "netclass_panel": {
-    "eeschema_shown_columns": "0 10 11 12 13",
+    "eeschema_shown_columns": "0 11 12 13 14",
     "pcbnew_shown_columns": "0 1 2 3 4 5 6 7 8 9",
     "sash_pos": 160
   },
   "package_manager": {
-    "sash_pos": 800
+    "sash_pos": 380
   },
   "session": {
     "pinned_design_block_libs": [],
@@ -83,15 +209,25 @@
     "pinned_symbol_libs": [],
     "remember_open_files": false
   },
+  "spacemouse": {
+    "pan_speed": 5,
+    "reverse_pan_x": false,
+    "reverse_pan_y": false,
+    "reverse_rotate": false,
+    "reverse_zoom": false,
+    "rotate_speed": 5
+  },
   "system": {
     "autosave_interval": 600,
     "clear_3d_cache_interval": 30,
     "file_explorer": "explorer.exe /n,/select,%F",
     "file_history_size": 9,
     "language": "Default",
+    "local_history_debounce": 5,
+    "local_history_enabled": true,
     "pdf_viewer_name": "",
     "text_editor": "",
     "use_system_pdf_viewer": true,
-    "working_dir": "C:\\Users\\nolle\\OneDrive\\Projekte\\Transit\\Elektrik\\DSB_TestBoard\\DSB_TestBoard_Logic"
+    "working_dir": "C:\\Users\\Kilian\\OneDrive\\Projekte\\Transit\\Elektrik\\DSB_TestBoard_GitHub\\DSB_TestBoard_Logic"
   }
 }
